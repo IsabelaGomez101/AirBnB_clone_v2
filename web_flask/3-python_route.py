@@ -2,7 +2,6 @@
 """
 script that starts a Flask web application
 """
-from asyncio.windows_events import NULL
 from flask import Flask
 
 app = Flask(__name__)
